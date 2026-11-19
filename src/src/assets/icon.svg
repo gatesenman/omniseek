@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#1c265c"/><stop offset="100%" stop-color="#2a3a88"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="235" cy="225" r="150" fill="#283778"/>
+  <g stroke="#96beff" stroke-width="10" stroke-linecap="round">
+    <line x1="160" y1="210" x2="230" y2="145"/><line x1="160" y1="210" x2="220" y2="280"/>
+    <line x1="230" y1="145" x2="300" y2="205"/><line x1="230" y1="145" x2="245" y2="235"/>
+    <line x1="300" y1="205" x2="285" y2="300"/><line x1="220" y1="280" x2="285" y2="300"/>
+    <line x1="160" y1="210" x2="245" y2="235"/><line x1="300" y1="205" x2="245" y2="235"/>
+    <line x1="220" y1="280" x2="245" y2="235"/><line x1="285" y1="300" x2="245" y2="235"/>
+  </g>
+  <g fill="#ffffff"><circle cx="160" cy="210" r="16"/><circle cx="230" cy="145" r="14"/>
+    <circle cx="300" cy="205" r="16"/><circle cx="220" cy="280" r="14"/><circle cx="285" cy="300" r="15"/>
+    <circle cx="245" cy="235" r="20"/></g>
+  <g fill="#649fff"><circle cx="160" cy="210" r="6"/><circle cx="230" cy="145" r="5"/>
+    <circle cx="300" cy="205" r="6"/><circle cx="220" cy="280" r="5"/><circle cx="285" cy="300" r="5"/>
+    <circle cx="245" cy="235" r="8"/></g>
+  <circle cx="235" cy="225" r="150" fill="none" stroke="#e8f0ff" stroke-width="32"/>
+  <line x1="342" y1="332" x2="420" y2="410" stroke="#e8f0ff" stroke-width="36" stroke-linecap="round"/>
+</svg>

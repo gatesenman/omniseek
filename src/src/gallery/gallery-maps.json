@@ -1,0 +1,4 @@
+{"name":"地图与地点","description":"用 OpenStreetMap 搜索地名、地址、景点，结果附带经纬度并可在地图中打开。",
+ "categories":{"maps":"地图地点"},
+ "sources":[{"id":"gx-nominatim","name":"OpenStreetMap 地点","category":"maps","kind":"web","type":"json","url":"https://nominatim.openstreetmap.org/search?q={qe}&format=jsonv2&limit=15&accept-language=zh-CN","headers":{"User-Agent":"OmniSeek/2.0 (desktop search)"},
+  "parse":{"list":"$[*]","fields":{"title":"name|display_name","url":{"tpl":"https://www.openstreetmap.org/{{osm_type}}/{{osm_id}}"},"snippet":"display_name","keywords":"type","extra":{"tpl":"{{lat}}, {{lon}}"}}}}]}

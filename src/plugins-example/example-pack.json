@@ -1,0 +1,11 @@
+{
+  "name": "示例来源包：游戏",
+  "categories": { "games": "游戏" },
+  "sources": [
+    { "id": "steam-site", "name": "Steam", "category": "games", "site": "store.steampowered.com" },
+    { "id": "itch-site", "name": "itch.io", "category": "games", "site": "itch.io" },
+    { "id": "github-topic-game", "name": "GitHub 游戏项目", "category": "games", "type": "json",
+      "url": "https://api.github.com/search/repositories?q={qe}+topic:game&per_page=20",
+      "parse": { "list": "$.items[*]", "fields": { "title": "full_name", "url": "html_url", "snippet": "description", "extra": { "tpl": "★ {{stargazers_count}}" } } } }
+  ]
+}

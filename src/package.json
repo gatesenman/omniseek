@@ -1,0 +1,56 @@
+{
+  "name": "omniseek",
+  "productName": "OmniSeek 万搜",
+  "version": "2.3.0",
+  "description": "OmniSeek 万搜 — AI 驱动的联合搜索桌面应用",
+  "main": "src/main/main.js",
+  "author": "OmniSeek",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "gen-sources": "node scripts/gen-sources.js",
+    "test": "node --test test/",
+    "dist:win": "electron-builder --win nsis --x64"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "jsonpath-plus": "^10.3.0"
+  },
+  "devDependencies": {
+    "electron": "33.4.11",
+    "electron-builder": "^25.1.8",
+    "remixicon": "^4.9.1"
+  },
+  "build": {
+    "appId": "app.omniseek.desktop",
+    "productName": "OmniSeek",
+    "files": [
+      "src/**/*",
+      "package.json"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "OmniSeek-Setup-${version}-x64.${ext}",
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "OmniSeek 万搜",
+      "createDesktopShortcut": true,
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "installerHeaderIcon": "build/icon.ico"
+    }
+  }
+}

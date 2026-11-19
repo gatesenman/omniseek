@@ -1,0 +1,6 @@
+[
+ {"file":"gallery-maps.json","name":"地图与地点","icon":"ri-map-pin-line","type":"来源包","description":"用 OpenStreetMap 搜索地名、地址和景点，新增“地图地点”分类。"},
+ {"file":"gallery-devtools.json","name":"开发者工具箱","icon":"ri-tools-line","type":"来源包","description":"Repology 跨发行版软件包、Fontsource 开源字体、Ollama 模型库。"},
+ {"file":"gallery-github-trending.js","name":"GitHub 近一年热门","icon":"ri-github-line","type":"脚本","description":"用一段小脚本调用 GitHub API，找出近一年新建且最受欢迎的仓库。"},
+ {"file":"gallery-wikidata.js","name":"Wikidata 实体","icon":"ri-database-2-line","type":"脚本","description":"在维基数据中查找人物、地点、作品等实体。"}
+]

@@ -1,0 +1,74 @@
+{
+ "name": "开发者工具箱",
+ "description": "跨发行版软件包（Repology）、开源字体（Fontsource）、Ollama 本地模型库。",
+ "sources": [
+  {
+   "id": "gx-repology",
+   "name": "Repology 跨发行版包",
+   "category": "software",
+   "kind": "software",
+   "type": "json",
+   "url": "https://repology.org/api/v1/projects/?search={qe}",
+   "headers": {
+    "User-Agent": "OmniSeek/2.0"
+   },
+   "parse": {
+    "list": "$.*",
+    "fields": {
+     "title": "0.binname|0.srcname|0.visiblename",
+     "url": {
+      "tpl": "https://repology.org/project/{{0.srcname}}/versions",
+      "req": false
+     },
+     "version": "0.version",
+     "snippet": "0.summary",
+     "platform": "0.repo"
+    }
+   }
+  },
+  {
+   "id": "gx-fontsource",
+   "name": "Fontsource 开源字体",
+   "category": "software",
+   "kind": "software",
+   "type": "json",
+   "url": "https://api.fontsource.org/v1/fonts",
+   "parse": {
+    "list": "$[*]",
+    "match": "title",
+    "fields": {
+     "title": "family",
+     "url": {
+      "tpl": "https://fontsource.org/fonts/{{id}}"
+     },
+     "snippet": "category",
+     "license": "license",
+     "version": "version",
+     "keywords": "subsets"
+    }
+   }
+  },
+  {
+   "id": "gx-ollama",
+   "name": "Ollama 模型库",
+   "category": "ai",
+   "kind": "software",
+   "type": "html",
+   "url": "https://ollama.com/search?q={qe}",
+   "parse": {
+    "list": "li.border-b",
+    "fields": {
+     "title": "h2 span",
+     "url": "a@href",
+     "snippet": "p",
+     "downloads": "span.tabular-nums span",
+     "keywords": {
+      "sel": "div.mt-3 span",
+      "all": true,
+      "join": ", "
+     }
+    }
+   }
+  }
+ ]
+}

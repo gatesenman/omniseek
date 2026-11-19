@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>OmniSeek 万搜</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src * data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; script-src 'self'">
+<link rel="stylesheet" href="vendor/remixicon/remixicon.css"><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="titlebar"><img class="logo" src="../assets/icon.png" alt=""><span class="appname">OmniSeek 万搜</span><span class="sub" id="tbSub"></span><span class="grow"></span><button class="icon-btn tb" id="helpBtn" title="快捷键" style="-webkit-app-region:no-drag"><i class="ri-keyboard-box-line"></i></button></div>
+<div class="shell">
+  <nav class="sidebar">
+    <button class="nav active" data-page="search"><i class="ri-search-2-line"></i><span data-i18n="search"></span></button>
+    <button class="nav" data-page="assistant"><i class="ri-sparkling-2-line"></i><span data-i18n="assistant"></span></button>
+    <button class="nav" data-page="sources"><i class="ri-stack-line"></i><span data-i18n="sources"></span></button>
+    <button class="nav" data-page="health"><i class="ri-heart-pulse-line"></i><span data-i18n="health"></span></button>
+    <button class="nav" data-page="ext"><i class="ri-puzzle-2-line"></i><span data-i18n="ext"></span></button>
+    <button class="nav" data-page="library"><i class="ri-star-line"></i><span data-i18n="library"></span></button>
+    <div class="grow"></div>
+    <button class="nav" data-page="settings"><i class="ri-settings-3-line"></i><span data-i18n="settings"></span></button>
+  </nav>
+  <main>
+    <!-- 搜索 -->
+    <section class="page active" id="p-search">
+      <div class="toolbar">
+        <div class="searchbox"><i class="ri-search-line ico"></i><input id="q" autocomplete="off" data-i18n-ph="placeholder"><div id="suggest" class="suggest"></div>
+          <select id="scene" title="场景"></select></div>
+        <label class="tog" title="智能路由：自动识别意图并选择分类/来源，多语言检索"><input type="checkbox" id="optSmart"><i class="ri-route-line"></i><span>智能</span></label>
+        <label class="tog" title="AI 查询扩展"><input type="checkbox" id="optExpand"><i class="ri-magic-line"></i><span data-i18n="expand"></span></label>
+        <label class="tog" title="AI 回答模式"><input type="checkbox" id="optAnswer"><i class="ri-chat-smile-2-line"></i><span data-i18n="answer"></span></label>
+        <button id="deepBtn" title="AI 深度搜索：多轮查询 + 阅读正文 + 带引用报告 (Ctrl+D)"><i class="ri-radar-line"></i> <span data-i18n="deep"></span></button>
+        <button class="primary" id="go"><i class="ri-search-line"></i> <span data-i18n="go"></span></button>
+        <button id="stop" hidden><i class="ri-stop-circle-line"></i> <span data-i18n="stop"></span></button>
+      </div>
+      <div class="filters">
+        <select id="fKind"></select>
+        <select id="fDate"><option value="" data-i18n="anyTime"></option><option value="1" data-i18n="d1"></option><option value="7" data-i18n="w1"></option><option value="31" data-i18n="m1"></option><option value="365" data-i18n="y1"></option><option value="1826" data-i18n="y5"></option></select>
+        <select id="fLang"><option value="" data-i18n="anyLang"></option><option value="zh" data-i18n="zhOnly"></option><option value="en" data-i18n="enOnly"></option></select>
+        <select id="fSource"><option value="">全部来源</option></select>
+        <select id="fRegion"><option value="all" data-i18n="regionAll"></option><option value="cn" data-i18n="regionCn"></option><option value="intl" data-i18n="regionIntl"></option></select>
+        <label class="chk"><input type="checkbox" id="fNative"><span data-i18n="nativeOnly" title="跳过 Bing/百度 site: 回退来源，只查有原生接口的源"></span></label>
+        <span class="grow"></span>
+        <select id="sort"><option value="rel" data-i18n="sRel"></option><option value="date" data-i18n="sDate"></option><option value="multi" data-i18n="sSrc"></option><option value="domain" data-i18n="sDomain"></option><option value="ai">AI 重排</option></select>
+        <div class="seg" id="viewSeg"><button data-v="auto" title="自动"><i class="ri-layout-masonry-line"></i></button><button data-v="list" title="列表"><i class="ri-list-check"></i></button><button data-v="grid" title="网格"><i class="ri-grid-line"></i></button></div>
+        <button class="icon-btn" id="saveSearch" data-i18n-title="saveSearch"><i class="ri-bookmark-line"></i></button>
+        <button class="icon-btn" id="expMd" data-i18n-title="exportMd"><i class="ri-markdown-line"></i></button>
+        <button class="icon-btn" id="expCsv" data-i18n-title="exportCsv"><i class="ri-file-excel-2-line"></i></button>
+      </div>
+      <div class="statusbar"><div class="progress"><div id="bar"></div></div><span id="stat"></span><span id="expanded"></span><span class="grow"></span><button class="link" id="enhBtn" title="AI 结果增强：摘要、相关性解释、标签、质量检测、重排与最佳推荐"><i class="ri-sparkling-line"></i> AI 增强</button><button class="link" id="digestBtn"><i class="ri-quill-pen-line"></i> <span data-i18n="digest"></span></button><button class="link" id="srcPanelBtn"><i class="ri-pulse-line"></i> 来源状态</button></div>
+      <div class="stabs" id="stabs"></div>
+      <div class="tabs" id="tabs"></div>
+      <div class="split">
+        <div class="results" id="results"></div>
+        <aside class="side" id="side" hidden>
+          <div class="sidehead"><span id="sideTitle"></span><span class="grow"></span><button class="icon-btn" id="sideClose"><i class="ri-close-line"></i></button></div>
+          <div class="sidebody" id="sideBody"></div>
+          <div class="chatin" id="followWrap" hidden><textarea id="follow" rows="2" data-i18n-ph="followUp"></textarea><button class="primary" id="followSend"><i class="ri-send-plane-2-line"></i></button></div>
+        </aside>
+      </div>
+    </section>
+    <!-- AI 助手 -->
+    <section class="page" id="p-assistant">
+      <div class="pagehead"><h2><i class="ri-sparkling-2-line"></i> AI 助手</h2><div class="seg" id="asSeg"><button data-m="copilot" class="on"><i class="ri-robot-2-line"></i> Copilot</button><button data-m="agent">来源助手</button><button data-m="plan">搜索规划</button></div><span class="grow"></span><span class="dim" id="asModel"></span></div>
+      <div class="assist copilot" id="asCopilot">
+        <div class="convs"><button class="small primary" id="cvNew"><i class="ri-add-line"></i> 新对话</button><input id="cvFilter" placeholder="搜索对话"><div id="cvList"></div><div class="mem" id="cvMem"></div></div>
+        <div class="cpmain"><div class="chatlog" id="cpLog"></div><div class="quickasks" id="cpAsks"></div>
+          <div class="chatin"><textarea id="cpIn" rows="2" placeholder="问我任何事：帮我找《三体》英文版 epub 并比较版本 / 对比 VS Code 与 Zed 的最新版本 / 调研 2026 年固态电池进展并给出引用 / 为“新能源政策”创建一个搜索维度"></textarea>
+          <div class="cpbtns"><button class="primary" id="cpSend" title="发送 (Enter)"><i class="ri-send-plane-2-line"></i></button><button id="cpStop" hidden title="停止"><i class="ri-stop-circle-line"></i></button><button id="cpRetry" title="重试上一条"><i class="ri-restart-line"></i></button></div></div></div>
+      </div>
+      <div class="assist" id="asAgent" hidden>
+        <div class="chatlog" id="agentLog"></div>
+        <div class="quickasks" id="agentAsks"></div>
+        <div class="chatin"><textarea id="agentIn" rows="2" placeholder="例如：添加一个“少数派”的文章搜索来源 / 修复豆瓣读书的封面字段 / 禁用所有超过 8 秒的慢来源 / 写一个搜索 npm 周下载量的扩展"></textarea><button class="primary" id="agentSend"><i class="ri-send-plane-2-line"></i></button></div>
+      </div>
+      <div class="assist" id="asPlan" hidden>
+        <div class="planin"><textarea id="planNeed" rows="3" placeholder="描述你的需求，例如：我要做一个关于“新能源汽车电池回收”的调研，需要政策、论文、行业报告、新闻和企业信息"></textarea><button class="primary" id="planGo"><i class="ri-route-line"></i> 生成搜索方案</button></div>
+        <div id="planOut" class="planout"></div>
+      </div>
+    </section>
+    <!-- 来源库 -->
+    <section class="page" id="p-sources">
+      <div class="pagehead"><h2><i class="ri-stack-line"></i> 来源库</h2><span class="dim" id="srcCount"></span><span class="grow"></span>
+        <input id="srcFilter" placeholder="筛选名称 / id / 域名"><select id="srcCat"></select><select id="srcStatus"><option value="">全部状态</option><option value="ok">正常</option><option value="empty">无结果</option><option value="dead">失效</option><option value="slow">慢</option><option value="off">已禁用</option><option value="fallback">站内回退</option></select>
+        <button id="srcNew"><i class="ri-add-line"></i> 新建</button></div>
+      <div class="bulk" id="srcBulk"></div>
+      <div class="srclist" id="srcList"></div>
+    </section>
+    <!-- 健康 -->
+    <section class="page" id="p-health">
+      <div class="pagehead"><h2><i class="ri-heart-pulse-line"></i> 来源健康</h2><span class="grow"></span>
+        <label class="chk"><input type="checkbox" id="autoDisable"> 连续失败 3 次自动禁用</label>
+        <button id="hcRun" class="primary"><i class="ri-play-line"></i> 全部检测</button><button id="hcEnabled"><i class="ri-play-list-line"></i> 仅检测已启用</button><button id="hcDisable"><i class="ri-forbid-line"></i> 禁用全部失效</button></div>
+      <div class="hc-progress" id="hcProg" hidden><div class="progress big"><div id="hcBar"></div></div><span id="hcStat"></span></div>
+      <div class="dash" id="dash"></div>
+    </section>
+    <!-- 扩展 -->
+    <section class="page" id="p-ext">
+      <div class="pagehead"><h2><i class="ri-puzzle-2-line"></i> 扩展</h2><span class="grow"></span><button id="extAi"><i class="ri-sparkling-2-line"></i> 让 AI 写一个扩展</button><button id="extImport"><i class="ri-upload-2-line"></i> <span data-i18n="import"></span></button><button id="extDir"><i class="ri-folder-open-line"></i> <span data-i18n="openDir"></span></button><button id="extReload"><i class="ri-refresh-line"></i> <span data-i18n="reload"></span></button></div>
+      <div class="scroll" id="extBody"></div>
+    </section>
+    <!-- 收藏 -->
+    <section class="page" id="p-library">
+      <div class="pagehead"><h2><i class="ri-star-line"></i> 收藏与历史</h2><div class="seg" id="libSeg"><button data-m="fav" class="on">收藏夹</button><button data-m="saved">已保存搜索</button><button data-m="history">搜索历史</button><button data-m="scenes">场景</button></div><span class="grow"></span><span id="libActs"></span></div>
+      <div class="scroll" id="libBody"></div>
+    </section>
+    <!-- 设置 -->
+    <section class="page" id="p-settings"><div class="scroll" id="setBody"></div></section>
+  </main>
+</div>
+<div class="modal" id="modal" hidden><div class="dialog" id="dialog"></div></div>
+<div class="toasts" id="toasts"></div>
+<div class="onboard" id="onboard" hidden></div>
+<script src="i18n.js"></script><script src="md.js"></script><script src="cards.js"></script><script src="app.js"></script><script src="pages.js"></script><script src="v22.js"></script><script src="v23.js"></script>
+</body></html>

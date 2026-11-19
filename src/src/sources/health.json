@@ -1,0 +1,5355 @@
+{
+ "sources": {
+  "iconify": {
+   "status": "ok",
+   "count": 64,
+   "ms": 3736,
+   "q": "cat",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "federal-register": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4292,
+   "q": "energy",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "plos": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4168,
+   "q": "deep learning",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "bangumi-anime": {
+   "status": "ok",
+   "count": 4,
+   "ms": 3662,
+   "q": "python",
+   "fieldCoverage": 25,
+   "checked": "2026-10-15T01:51"
+  },
+  "artic": {
+   "status": "ok",
+   "count": 29,
+   "ms": 4020,
+   "q": "cat",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-canada": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4540,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "bangumi-music": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6196,
+   "q": "love",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "kitsu": {
+   "status": "ok",
+   "count": 1,
+   "ms": 3678,
+   "q": "三体",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "bangumi-real": {
+   "status": "ok",
+   "count": 18,
+   "ms": 5995,
+   "q": "三体",
+   "fieldCoverage": 30,
+   "checked": "2026-10-15T01:51"
+  },
+  "worldbank-docs": {
+   "status": "ok",
+   "count": 10,
+   "ms": 4397,
+   "q": "新能源",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "doaj": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4094,
+   "q": "deep learning",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-hdx": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4594,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "crossref": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4008,
+   "q": "transformer",
+   "fieldCoverage": 60,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-boston": {
+   "status": "ok",
+   "count": 1,
+   "ms": 4528,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "openalex-zh": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4201,
+   "q": "deep learning",
+   "fieldCoverage": 98,
+   "checked": "2026-10-15T01:51"
+  },
+  "tvmaze": {
+   "status": "ok",
+   "count": 3,
+   "ms": 3813,
+   "q": "三体",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "arxiv": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3798,
+   "q": "transformer",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "archive-movies": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3785,
+   "q": "三体",
+   "fieldCoverage": 52,
+   "checked": "2026-10-15T01:51"
+  },
+  "deezer": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3912,
+   "q": "love",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-ontario": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4673,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "nasa-images": {
+   "status": "ok",
+   "count": 30,
+   "ms": 4195,
+   "q": "cat",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "inspire": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4386,
+   "q": "deep learning",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-gov-au": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5246,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "niconico": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4191,
+   "q": "三体",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "hal": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4394,
+   "q": "deep learning",
+   "fieldCoverage": 78,
+   "checked": "2026-10-15T01:51"
+  },
+  "radio-browser": {
+   "status": "ok",
+   "count": 1,
+   "ms": 4359,
+   "q": "周杰伦",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "ddg-instant": {
+   "status": "empty",
+   "count": 0,
+   "ms": 4784,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "cleveland-art": {
+   "status": "ok",
+   "count": 30,
+   "ms": 3775,
+   "q": "cat",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "europepmc": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4421,
+   "q": "deep learning",
+   "fieldCoverage": 87,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-zh-yue": {
+   "status": "ok",
+   "count": 20,
+   "ms": 264,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-ja": {
+   "status": "ok",
+   "count": 20,
+   "ms": 268,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-bc": {
+   "status": "ok",
+   "count": 8,
+   "ms": 4865,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-zh-classical": {
+   "status": "ok",
+   "count": 2,
+   "ms": 252,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-zh": {
+   "status": "ok",
+   "count": 20,
+   "ms": 300,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-ko": {
+   "status": "ok",
+   "count": 20,
+   "ms": 280,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "youtube": {
+   "status": "ok",
+   "count": 13,
+   "ms": 4342,
+   "q": "三体",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-gov-ie": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5039,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "sepia": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4288,
+   "q": "三体",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-de": {
+   "status": "ok",
+   "count": 20,
+   "ms": 443,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "musicbrainz": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4299,
+   "q": "周杰伦",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "dailymotion": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4111,
+   "q": "三体",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "mojeek": {
+   "status": "dead",
+   "count": 0,
+   "ms": 5016,
+   "q": "python",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 297,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-es": {
+   "status": "ok",
+   "count": 20,
+   "ms": 310,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-it": {
+   "status": "ok",
+   "count": 20,
+   "ms": 364,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-ru": {
+   "status": "ok",
+   "count": 20,
+   "ms": 296,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "openreview": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4918,
+   "q": "deep learning",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-id": {
+   "status": "ok",
+   "count": 20,
+   "ms": 303,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-tr": {
+   "status": "ok",
+   "count": 20,
+   "ms": 362,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-fr": {
+   "status": "ok",
+   "count": 20,
+   "ms": 450,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-darus": {
+   "status": "ok",
+   "count": 1,
+   "ms": 5363,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "wiktionary-ja": {
+   "status": "ok",
+   "count": 20,
+   "ms": 287,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-th": {
+   "status": "ok",
+   "count": 20,
+   "ms": 246,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-sv": {
+   "status": "ok",
+   "count": 20,
+   "ms": 293,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-hi": {
+   "status": "ok",
+   "count": 20,
+   "ms": 243,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-zurich": {
+   "status": "ok",
+   "count": 1,
+   "ms": 5091,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-nl": {
+   "status": "ok",
+   "count": 20,
+   "ms": 435,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wiktionary-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 225,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wiby": {
+   "status": "ok",
+   "count": 12,
+   "ms": 501,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-pt": {
+   "status": "ok",
+   "count": 20,
+   "ms": 404,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-govdata-de": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5269,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-uk": {
+   "status": "ok",
+   "count": 20,
+   "ms": 432,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-pl": {
+   "status": "ok",
+   "count": 20,
+   "ms": 308,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-ar": {
+   "status": "ok",
+   "count": 20,
+   "ms": 280,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-vi": {
+   "status": "ok",
+   "count": 20,
+   "ms": 434,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-fa": {
+   "status": "ok",
+   "count": 20,
+   "ms": 354,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-borealis": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5509,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "wiktionary-zh": {
+   "status": "ok",
+   "count": 20,
+   "ms": 267,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikipedia-he": {
+   "status": "ok",
+   "count": 20,
+   "ms": 289,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikisource-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 242,
+   "q": "python",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "ddg": {
+   "status": "ok",
+   "count": 12,
+   "ms": 5221,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikibooks-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 253,
+   "q": "python",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikivoyage-zh": {
+   "status": "empty",
+   "count": 0,
+   "ms": 4823,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikiquote-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 273,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikibooks-zh": {
+   "status": "ok",
+   "count": 20,
+   "ms": 243,
+   "q": "python",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikisource-zh": {
+   "status": "ok",
+   "count": 20,
+   "ms": 240,
+   "q": "python",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "datacite": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4735,
+   "q": "deep learning",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "osdev": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4807,
+   "q": "json",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikinews-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 248,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikiquote-zh": {
+   "status": "empty",
+   "count": 0,
+   "ms": 4942,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikivoyage-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 258,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "minecraft-wiki": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4832,
+   "q": "minecraft",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "cppreference-zh": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4768,
+   "q": "json",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "minecraft-wiki-zh": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4737,
+   "q": "minecraft",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikinews-zh": {
+   "status": "ok",
+   "count": 20,
+   "ms": 286,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikispecies": {
+   "status": "ok",
+   "count": 20,
+   "ms": 407,
+   "q": "北京",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikiversity-en": {
+   "status": "ok",
+   "count": 20,
+   "ms": 240,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikihow-zh": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4818,
+   "q": "linux",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "mediawiki": {
+   "status": "ok",
+   "count": 20,
+   "ms": 341,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "rationalwiki": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4820,
+   "q": "python",
+   "error": "HTTP 503",
+   "checked": "2026-10-15T01:51"
+  },
+  "figshare": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5244,
+   "q": "covid",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "stardew-wiki": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4844,
+   "q": "minecraft",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "socrata": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4923,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-alberta": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5345,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-dataverse-no": {
+   "status": "ok",
+   "count": 8,
+   "ms": 5609,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "meta-wikimedia": {
+   "status": "ok",
+   "count": 20,
+   "ms": 428,
+   "q": "北京",
+   "checked": "2026-10-15T01:51"
+  },
+  "bulbapedia": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4809,
+   "q": "minecraft",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "citizendium": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4841,
+   "q": "python",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "google-patents": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5136,
+   "q": "deep learning",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "ballotpedia": {
+   "status": "ok",
+   "count": 20,
+   "ms": 436,
+   "q": "energy",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-nhm": {
+   "status": "ok",
+   "count": 1,
+   "ms": 5414,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "terraria-wiki": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4879,
+   "q": "minecraft",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-linux-do": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4777,
+   "q": "linux",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-opendata-swiss": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5865,
+   "q": "covid",
+   "fieldCoverage": 93,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikidata-pages": {
+   "status": "ok",
+   "count": 20,
+   "ms": 491,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-overheid-nl": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5447,
+   "q": "covid",
+   "fieldCoverage": 93,
+   "checked": "2026-10-15T01:51"
+  },
+  "wikihow": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4737,
+   "q": "linux",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "cppreference": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4787,
+   "q": "json",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "archive-audio": {
+   "status": "ok",
+   "count": 9,
+   "ms": 4419,
+   "q": "周杰伦",
+   "fieldCoverage": 83,
+   "checked": "2026-10-15T01:51"
+  },
+  "pcgamingwiki": {
+   "status": "ok",
+   "count": 14,
+   "ms": 456,
+   "q": "minecraft",
+   "checked": "2026-10-15T01:51"
+  },
+  "wikidata": {
+   "status": "ok",
+   "count": 20,
+   "ms": 668,
+   "q": "北京",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-home-assistant": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4795,
+   "q": "vlc",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-cloudflare-community": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4778,
+   "q": "json",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "commons-pages": {
+   "status": "ok",
+   "count": 20,
+   "ms": 626,
+   "q": "flower",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-stackoverflow": {
+   "status": "ok",
+   "count": 20,
+   "ms": 620,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-serverfault": {
+   "status": "ok",
+   "count": 20,
+   "ms": 558,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "commons": {
+   "status": "ok",
+   "count": 30,
+   "ms": 4800,
+   "q": "cat",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "huiji-hp": {
+   "status": "dead",
+   "count": 0,
+   "ms": 5007,
+   "q": "python",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "huiji-lol": {
+   "status": "dead",
+   "count": 0,
+   "ms": 5001,
+   "q": "minecraft",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-dataverse-nl": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5374,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-superuser": {
+   "status": "ok",
+   "count": 20,
+   "ms": 590,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "data-gouv-fr": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5782,
+   "q": "covid",
+   "fieldCoverage": 80,
+   "checked": "2026-10-15T01:51"
+  },
+  "huiji-asoiaf": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4971,
+   "q": "python",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-cursor-forum": {
+   "status": "ok",
+   "count": 6,
+   "ms": 906,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-meta": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5462,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "cninfo": {
+   "status": "ok",
+   "count": 4,
+   "ms": 5745,
+   "q": "climate",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "semantic-scholar": {
+   "status": "error",
+   "count": 0,
+   "ms": 2376,
+   "q": "deep learning",
+   "error": "HTTP 429",
+   "checked": "2026-10-15T01:51"
+  },
+  "fandom-community": {
+   "status": "empty",
+   "count": 0,
+   "ms": 5016,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "data-europa": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6048,
+   "q": "covid",
+   "fieldCoverage": 83,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-gnome-discourse": {
+   "status": "ok",
+   "count": 41,
+   "ms": 669,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "starwars-fandom": {
+   "status": "ok",
+   "count": 4,
+   "ms": 555,
+   "q": "北京",
+   "checked": "2026-10-15T01:51"
+  },
+  "winehq-wiki": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4820,
+   "q": "vlc",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-qld": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4407,
+   "q": "covid",
+   "fieldCoverage": 68,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-openai-community": {
+   "status": "ok",
+   "count": 50,
+   "ms": 770,
+   "q": "llama",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-obsidian-forum": {
+   "status": "ok",
+   "count": 32,
+   "ms": 902,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "osm-wiki": {
+   "status": "ok",
+   "count": 20,
+   "ms": 921,
+   "q": "北京",
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-qdr": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5997,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "genshin-fandom": {
+   "status": "ok",
+   "count": 20,
+   "ms": 795,
+   "q": "zelda",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-julia-discourse": {
+   "status": "ok",
+   "count": 50,
+   "ms": 829,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-n8n-community": {
+   "status": "ok",
+   "count": 1,
+   "ms": 4690,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "thwiki": {
+   "status": "ok",
+   "count": 4,
+   "ms": 969,
+   "q": "zelda",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-mozilla-discourse": {
+   "status": "ok",
+   "count": 6,
+   "ms": 819,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-discuss-python": {
+   "status": "ok",
+   "count": 50,
+   "ms": 842,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "gentoo-wiki": {
+   "status": "empty",
+   "count": 0,
+   "ms": 4856,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-fedora-discussion": {
+   "status": "ok",
+   "count": 50,
+   "ms": 5108,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "archwiki": {
+   "status": "dead",
+   "count": 0,
+   "ms": 5089,
+   "q": "json",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-ubuntu-discourse": {
+   "status": "ok",
+   "count": 50,
+   "ms": 5028,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "data-public-lu": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6003,
+   "q": "covid",
+   "fieldCoverage": 48,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-freecodecamp-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1577,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-brave-community": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1104,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "zenodo-data": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6727,
+   "q": "covid",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-gov-uk": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5233,
+   "q": "covid",
+   "fieldCoverage": 95,
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-recherche-gouv": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6077,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "appropedia": {
+   "status": "ok",
+   "count": 20,
+   "ms": 951,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-meta-discourse": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1048,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-rust-users": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1060,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-letsencrypt": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1256,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-threejs-discourse": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1004,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-docker-forums": {
+   "status": "ok",
+   "count": 50,
+   "ms": 944,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "zenodo": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5429,
+   "q": "deep learning",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-pihole-discourse": {
+   "status": "ok",
+   "count": 8,
+   "ms": 4580,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-hf-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1051,
+   "q": "llama",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-k8s-discuss": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1056,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-vic": {
+   "status": "ok",
+   "count": 19,
+   "ms": 6259,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-godot-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1179,
+   "q": "zelda",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-tailscale": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4381,
+   "q": "vlc",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-rust-internals": {
+   "status": "ok",
+   "count": 50,
+   "ms": 776,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-bitwarden-community": {
+   "status": "ok",
+   "count": 1,
+   "ms": 1138,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-privacyguides": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1169,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "gov-cn-policy": {
+   "status": "ok",
+   "count": 50,
+   "ms": 5716,
+   "q": "人工智能",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-syncthing-forum": {
+   "status": "ok",
+   "count": 12,
+   "ms": 1076,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-grafana-community": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1401,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-rclone-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 5132,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-jellyfin-forum": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4622,
+   "q": "vlc",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "dev-to": {
+   "status": "empty",
+   "count": 0,
+   "ms": 4021,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-openwrt-forum": {
+   "status": "error",
+   "count": 0,
+   "ms": 4604,
+   "q": "vlc",
+   "error": "HTTP 429",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-pytorch-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1167,
+   "q": "bert",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-ghost-forum": {
+   "status": "ok",
+   "count": 3,
+   "ms": 4533,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-ziggit": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1306,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-haskell-discourse": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1197,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "moegirl": {
+   "status": "empty",
+   "count": 0,
+   "ms": 5458,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-logseq-discuss": {
+   "status": "ok",
+   "count": 5,
+   "ms": 1254,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-endeavouros": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1162,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-rails-discuss": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1172,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-zotero-forums": {
+   "status": "dead",
+   "count": 0,
+   "ms": 13549,
+   "q": "cat",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-swift-forums": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1282,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-gitlab-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1156,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "hn": {
+   "status": "ok",
+   "count": 20,
+   "ms": 1395,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-unraid-like": {
+   "status": "ok",
+   "count": 33,
+   "ms": 1286,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-processing-discourse": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1140,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-venturebeat": {
+   "status": "error",
+   "count": 0,
+   "ms": 3963,
+   "q": "AI",
+   "error": "HTTP 429",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-ocaml-discuss": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1354,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-anytype-community": {
+   "status": "ok",
+   "count": 10,
+   "ms": 1399,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-zdfans": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4266,
+   "q": "vlc",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-9to5linux": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4072,
+   "q": "AI",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-kde-discuss": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1933,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-ghacks": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4030,
+   "q": "vlc",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-liliputing": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4003,
+   "q": "AI",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-blender-artists": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1227,
+   "q": "flower",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-mapbox-gis": {
+   "status": "ok",
+   "count": 17,
+   "ms": 1422,
+   "q": "北京",
+   "checked": "2026-10-15T01:51"
+  },
+  "wiki-biligame-ys": {
+   "status": "ok",
+   "count": 1,
+   "ms": 1467,
+   "q": "minecraft",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-manjaro-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 5392,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-babylonjs-forum": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1280,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-cyberciti": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3959,
+   "q": "linux",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-helpnetsecurity": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3818,
+   "q": "AI",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-ember-discuss": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1542,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-level1techs": {
+   "status": "ok",
+   "count": 50,
+   "ms": 928,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-androidauthority": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3826,
+   "q": "AI",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "google-news-en": {
+   "status": "ok",
+   "count": 100,
+   "ms": 1630,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-nextcloud-help": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1589,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-macstories": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3804,
+   "q": "vlc",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-codrops": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3812,
+   "q": "json",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "lemmy-world": {
+   "status": "ok",
+   "count": 20,
+   "ms": 1805,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-fosslinux": {
+   "status": "ok",
+   "count": 15,
+   "ms": 1949,
+   "q": "python",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "google-news": {
+   "status": "ok",
+   "count": 106,
+   "ms": 1720,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-csis": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3787,
+   "q": "新能源",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-wordpress-news": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3872,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "dryad": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6800,
+   "q": "covid",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-appinn": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3973,
+   "q": "vlc",
+   "error": "HTTP 401",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-tecmint": {
+   "status": "ok",
+   "count": 15,
+   "ms": 2158,
+   "q": "python",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-nixos-discourse": {
+   "status": "ok",
+   "count": 50,
+   "ms": 918,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "douban-movie": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7361,
+   "q": "python",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-elixirforum": {
+   "status": "dead",
+   "count": 0,
+   "ms": 5545,
+   "q": "json",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-linuxiac": {
+   "status": "ok",
+   "count": 15,
+   "ms": 3810,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-9to5google": {
+   "status": "ok",
+   "count": 15,
+   "ms": 4584,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-423down": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3516,
+   "q": "vlc",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-9to5mac": {
+   "status": "ok",
+   "count": 15,
+   "ms": 4837,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-krebsonsecurity": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4003,
+   "q": "AI",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "so360": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4703,
+   "q": "python",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-brookings": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3764,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-cfr": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3576,
+   "q": "新能源",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "chocolatey": {
+   "status": "ok",
+   "count": 3,
+   "ms": 2244,
+   "q": "微信",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-carnegie": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3533,
+   "q": "新能源",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-windowslatest": {
+   "status": "ok",
+   "count": 15,
+   "ms": 3641,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "baidu-baike": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3807,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-iplaysoft": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4193,
+   "q": "vlc",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-apprcn": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4127,
+   "q": "vlc",
+   "error": "HTTP 401",
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-meta-appinn": {
+   "status": "ok",
+   "count": 50,
+   "ms": 1341,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-techcrunch": {
+   "status": "ok",
+   "count": 15,
+   "ms": 4362,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "softonic": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2495,
+   "q": "vlc",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "filehorse": {
+   "status": "ok",
+   "count": 4,
+   "ms": 2512,
+   "q": "vlc",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-ntu-sg": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7110,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-woshipm": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3745,
+   "q": "新能源",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-nsw": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5723,
+   "q": "covid",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-ebook": {
+   "status": "empty",
+   "count": 0,
+   "ms": 626,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-omgubuntu": {
+   "status": "ok",
+   "count": 15,
+   "ms": 1585,
+   "q": "vlc",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "zh-wikimedia-baike": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2064,
+   "q": "北京",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-pewresearch": {
+   "status": "ok",
+   "count": 15,
+   "ms": 2648,
+   "q": "climate",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-techweb": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3744,
+   "q": "AI",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-harvard": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8921,
+   "q": "covid",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "pypi": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3221,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "bangumi-game": {
+   "status": "ok",
+   "count": 18,
+   "ms": 2716,
+   "q": "zelda",
+   "fieldCoverage": 33,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-css-tricks": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4157,
+   "q": "json",
+   "error": "HTTP 401",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-themes": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2679,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "fdroid": {
+   "status": "ok",
+   "count": 11,
+   "ms": 2606,
+   "q": "vlc",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "steam": {
+   "status": "ok",
+   "count": 10,
+   "ms": 2695,
+   "q": "minecraft",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-ifanr": {
+   "status": "dead",
+   "count": 0,
+   "ms": 4027,
+   "q": "AI",
+   "error": "Unexpected end of JSON input",
+   "checked": "2026-10-15T01:51"
+  },
+  "itch": {
+   "status": "ok",
+   "count": 54,
+   "ms": 2798,
+   "q": "minecraft",
+   "fieldCoverage": 47,
+   "checked": "2026-10-15T01:51"
+  },
+  "npm": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2754,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-mac": {
+   "status": "ok",
+   "count": 18,
+   "ms": 2516,
+   "q": "vlc",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "rubygems": {
+   "status": "ok",
+   "count": 30,
+   "ms": 2675,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "github-releases": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2901,
+   "q": "微信",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "pkg-go": {
+   "status": "ok",
+   "count": 25,
+   "ms": 2847,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "metacpan": {
+   "status": "error",
+   "count": 0,
+   "ms": 3148,
+   "q": "json",
+   "error": "HTTP 402",
+   "checked": "2026-10-15T01:51"
+  },
+  "openvsx": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2701,
+   "q": "http",
+   "fieldCoverage": 98,
+   "checked": "2026-10-15T01:51"
+  },
+  "nuget": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2810,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "jetbrains": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3053,
+   "q": "http",
+   "fieldCoverage": 35,
+   "checked": "2026-10-15T01:51"
+  },
+  "dockerhub": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2857,
+   "q": "http",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "quay": {
+   "status": "error",
+   "count": 0,
+   "ms": 3075,
+   "q": "json",
+   "error": "HTTP 400",
+   "checked": "2026-10-15T01:51"
+  },
+  "baidu": {
+   "status": "ok",
+   "count": 18,
+   "ms": 3375,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-socialbeta": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3265,
+   "q": "新能源",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "douban": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3131,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "snapcraft": {
+   "status": "ok",
+   "count": 14,
+   "ms": 2950,
+   "q": "vlc",
+   "fieldCoverage": 86,
+   "checked": "2026-10-15T01:51"
+  },
+  "gog": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3274,
+   "q": "minecraft",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-macat": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3316,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "packagist": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2998,
+   "q": "http",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-xitmi": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2928,
+   "q": "vlc",
+   "error": "Unexpected token '<', \"<html><scr\"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "crates": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3123,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-elastic-discuss": {
+   "status": "ok",
+   "count": 50,
+   "ms": 2021,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "sogou-weixin": {
+   "status": "ok",
+   "count": 10,
+   "ms": 2557,
+   "q": "python",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "r-universe": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2884,
+   "q": "http",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "vscode-market": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2645,
+   "q": "http",
+   "fieldCoverage": 90,
+   "checked": "2026-10-15T01:51"
+  },
+  "github": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2814,
+   "q": "editor",
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-ios": {
+   "status": "ok",
+   "count": 16,
+   "ms": 2433,
+   "q": "vlc",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "pubdev": {
+   "status": "ok",
+   "count": 10,
+   "ms": 2826,
+   "q": "http",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "hf-datasets": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2921,
+   "q": "bert",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "amo": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2771,
+   "q": "vlc",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "hf-models": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2910,
+   "q": "bert",
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-ios-us": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2525,
+   "q": "vlc",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-plugins": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2580,
+   "q": "http",
+   "fieldCoverage": 95,
+   "checked": "2026-10-15T01:51"
+  },
+  "readthedocs": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3049,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "hf-spaces": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2935,
+   "q": "bert",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-gnome-gitlab": {
+   "status": "error",
+   "count": 0,
+   "ms": 2995,
+   "q": "editor",
+   "error": "HTTP 406",
+   "checked": "2026-10-15T01:51"
+  },
+  "douban-group": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3396,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "google-books-free": {
+   "status": "error",
+   "count": 0,
+   "ms": 2671,
+   "q": "论语",
+   "error": "HTTP 429",
+   "checked": "2026-10-15T01:51"
+  },
+  "google-books": {
+   "status": "error",
+   "count": 0,
+   "ms": 2670,
+   "q": "python",
+   "error": "HTTP 429",
+   "checked": "2026-10-15T01:51"
+  },
+  "mdn": {
+   "status": "ok",
+   "count": 10,
+   "ms": 2890,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-ithome-blog": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3677,
+   "q": "AI",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-mpyit": {
+   "status": "ok",
+   "count": 15,
+   "ms": 2964,
+   "q": "微信",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "standardebooks": {
+   "status": "ok",
+   "count": 1,
+   "ms": 3444,
+   "q": "python",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "hex": {
+   "status": "ok",
+   "count": 100,
+   "ms": 3346,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "openverse": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2502,
+   "q": "cat",
+   "error": "HTTP 401",
+   "checked": "2026-10-15T01:51"
+  },
+  "greasyfork": {
+   "status": "ok",
+   "count": 100,
+   "ms": 3360,
+   "q": "vlc",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-ypojie": {
+   "status": "ok",
+   "count": 12,
+   "ms": 2366,
+   "q": "vlc",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "flathub": {
+   "status": "ok",
+   "count": 21,
+   "ms": 3369,
+   "q": "vlc",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "juejin": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3008,
+   "q": "python",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "openverse-audio": {
+   "status": "empty",
+   "count": 0,
+   "ms": 2530,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "archive-texts": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3723,
+   "q": "python",
+   "fieldCoverage": 68,
+   "checked": "2026-10-15T01:51"
+  },
+  "gt-opendev": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2701,
+   "q": "editor",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-go-th": {
+   "status": "dead",
+   "count": 0,
+   "ms": 1596,
+   "q": "covid",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-ghxi": {
+   "status": "ok",
+   "count": 15,
+   "ms": 2518,
+   "q": "vlc",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "coursera": {
+   "status": "error",
+   "count": 0,
+   "ms": 2413,
+   "q": "linux",
+   "error": "HTTP 405",
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-kde-invent": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2987,
+   "q": "editor",
+   "error": "HTTP 501",
+   "checked": "2026-10-15T01:51"
+  },
+  "debian-pkg": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2660,
+   "q": "json",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "hf-papers": {
+   "status": "ok",
+   "count": 108,
+   "ms": 6173,
+   "q": "bert",
+   "fieldCoverage": 33,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-edx-netl": {
+   "status": "empty",
+   "count": 0,
+   "ms": 1638,
+   "q": "covid",
+   "checked": "2026-10-15T01:51"
+  },
+  "gt-codeberg": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2697,
+   "q": "editor",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "bangumi-book": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3530,
+   "q": "三体",
+   "fieldCoverage": 33,
+   "checked": "2026-10-15T01:51"
+  },
+  "met-museum": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2287,
+   "q": "cat",
+   "error": "HTTP 410",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-gov": {
+   "status": "dead",
+   "count": 0,
+   "ms": 1579,
+   "q": "covid",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "ms-learn": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2960,
+   "q": "http",
+   "checked": "2026-10-15T01:51"
+  },
+  "doab": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2560,
+   "q": "论语",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-tdl": {
+   "status": "dead",
+   "count": 0,
+   "ms": 1293,
+   "q": "covid",
+   "error": "HTTP 401",
+   "checked": "2026-10-15T01:51"
+  },
+  "sec-edgar": {
+   "status": "empty",
+   "count": 0,
+   "ms": 1942,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-landian": {
+   "status": "ok",
+   "count": 15,
+   "ms": 3399,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "oapen": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2556,
+   "q": "论语",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "pubmed": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6403,
+   "q": "deep learning",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-africa": {
+   "status": "dead",
+   "count": 0,
+   "ms": 1906,
+   "q": "covid",
+   "error": "HTTP 403",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-leiphone": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2760,
+   "q": "AI",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "dblp": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2060,
+   "q": "deep learning",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-salsa-debian": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2771,
+   "q": "editor",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-cooking": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7499,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-webmasters": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6445,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-gaming": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5506,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-199it": {
+   "status": "ok",
+   "count": 15,
+   "ms": 4846,
+   "q": "新能源",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "gt-disroot-git": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2594,
+   "q": "editor",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-freedesktop": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2862,
+   "q": "editor",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-iati": {
+   "status": "error",
+   "count": 0,
+   "ms": 1683,
+   "q": "covid",
+   "error": "HTTP 400",
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-podcast": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6530,
+   "q": "love",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-song": {
+   "status": "empty",
+   "count": 0,
+   "ms": 58,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "aur": {
+   "status": "ok",
+   "count": 1280,
+   "ms": 3574,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "winget": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2572,
+   "q": "微信",
+   "fieldCoverage": 50,
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-movie": {
+   "status": "empty",
+   "count": 0,
+   "ms": 570,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-gitlab": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3512,
+   "q": "editor",
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-arch-gitlab": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2821,
+   "q": "editor",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-audiobook": {
+   "status": "ok",
+   "count": 22,
+   "ms": 5829,
+   "q": "三体",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-webapps": {
+   "status": "ok",
+   "count": 20,
+   "ms": 5665,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-stats": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6600,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-gamedev": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6497,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "lemmy-ml": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2409,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-photo": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6569,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-wpbeginner": {
+   "status": "dead",
+   "count": 0,
+   "ms": 7186,
+   "q": "linux",
+   "error": "HTTP 401",
+   "checked": "2026-10-15T01:51"
+  },
+  "itunes-mv": {
+   "status": "ok",
+   "count": 1,
+   "ms": 6402,
+   "q": "python",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "bilibili": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6693,
+   "q": "三体",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-videolan": {
+   "status": "ok",
+   "count": 1,
+   "ms": 3638,
+   "q": "vue",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-diy": {
+   "status": "ok",
+   "count": 6,
+   "ms": 6693,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-math": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6622,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-w3schools": {
+   "status": "ok",
+   "count": 2,
+   "ms": 7934,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-gv-at": {
+   "status": "dead",
+   "count": 0,
+   "ms": 1597,
+   "q": "covid",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "cinii": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4584,
+   "q": "deep learning",
+   "fieldCoverage": 62,
+   "checked": "2026-10-15T01:51"
+  },
+  "csdn": {
+   "status": "ok",
+   "count": 30,
+   "ms": 3474,
+   "q": "linux",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "disc-krita-artists": {
+   "status": "ok",
+   "count": 50,
+   "ms": 2349,
+   "q": "flower",
+   "checked": "2026-10-15T01:51"
+  },
+  "bilibili-article": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7114,
+   "q": "linux",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-gis": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6755,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-tex": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6788,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-money": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6889,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "loc-books": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2633,
+   "q": "python",
+   "fieldCoverage": 80,
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-govt-nz": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2627,
+   "q": "covid",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-zhiding": {
+   "status": "dead",
+   "count": 0,
+   "ms": 10462,
+   "q": "新能源",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "douban-book": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4150,
+   "q": "python",
+   "fieldCoverage": 95,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-askubuntu": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6817,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "sina-news": {
+   "status": "empty",
+   "count": 0,
+   "ms": 2415,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "bilibili-bangumi": {
+   "status": "ok",
+   "count": 2,
+   "ms": 321,
+   "q": "三体",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-stackapps": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6972,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-english": {
+   "status": "ok",
+   "count": 20,
+   "ms": 6926,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "bilibili-ft": {
+   "status": "empty",
+   "count": 0,
+   "ms": 260,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-chuapp": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2449,
+   "q": "minecraft",
+   "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-ux": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7043,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "kugou": {
+   "status": "ok",
+   "count": 14,
+   "ms": 5297,
+   "q": "周杰伦",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "weread": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4804,
+   "q": "论语",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "openalex": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4301,
+   "q": "transformer",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-unix": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7044,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-cstheory": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7270,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "openalex-oa": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4635,
+   "q": "deep learning",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-wordpress": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7116,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "openlibrary-ebooks": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3885,
+   "q": "python",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "arch-pkg": {
+   "status": "ok",
+   "count": 203,
+   "ms": 5172,
+   "q": "http",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-apple": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7173,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-rpg": {
+   "status": "ok",
+   "count": 19,
+   "ms": 7327,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "openlibrary": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3276,
+   "q": "python",
+   "fieldCoverage": 98,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-softwareengineering": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7392,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "gt-gitea": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4345,
+   "q": "vue",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-bicycles": {
+   "status": "ok",
+   "count": 4,
+   "ms": 6768,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "pcmgr": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4620,
+   "q": "vlc",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-electronics": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7444,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-android": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7481,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "dv-unc": {
+   "status": "dead",
+   "count": 0,
+   "ms": 1474,
+   "q": "covid",
+   "error": "HTTP 401",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-boardgames": {
+   "status": "ok",
+   "count": 10,
+   "ms": 7521,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-physics": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7612,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-homebrew": {
+   "status": "ok",
+   "count": 1,
+   "ms": 6419,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "gt-forgejo-next": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2018,
+   "q": "editor",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-security": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7656,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-writing": {
+   "status": "ok",
+   "count": 18,
+   "ms": 7728,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-video": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7775,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-scifi": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7940,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-dba": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7850,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "modelscope": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4779,
+   "q": "llama",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-graphicdesign": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7808,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-jihulab": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4515,
+   "q": "vue",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-qbitai": {
+   "status": "ok",
+   "count": 15,
+   "ms": 4446,
+   "q": "bert",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-codegolf": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7995,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-quant": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8057,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-codereview": {
+   "status": "ok",
+   "count": 20,
+   "ms": 7973,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-pm": {
+   "status": "ok",
+   "count": 9,
+   "ms": 8109,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-fitness": {
+   "status": "ok",
+   "count": 1,
+   "ms": 8158,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-skeptics": {
+   "status": "ok",
+   "count": 5,
+   "ms": 8116,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "sov2ex": {
+   "status": "ok",
+   "count": 20,
+   "ms": 2956,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-mechanics": {
+   "status": "ok",
+   "count": 4,
+   "ms": 8222,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-parenting": {
+   "status": "ok",
+   "count": 1,
+   "ms": 8265,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-drupal": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8291,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "wp-dayanzai": {
+   "status": "dead",
+   "count": 0,
+   "ms": 3098,
+   "q": "vlc",
+   "error": "HTTP 404",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-sharepoint": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8381,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-music": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8402,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-judaism": {
+   "status": "ok",
+   "count": 5,
+   "ms": 8510,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-sqa": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8453,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-german": {
+   "status": "ok",
+   "count": 7,
+   "ms": 8509,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-gardening": {
+   "status": "ok",
+   "count": 1,
+   "ms": 8613,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-japanese": {
+   "status": "ok",
+   "count": 7,
+   "ms": 8574,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-philosophy": {
+   "status": "ok",
+   "count": 17,
+   "ms": 8673,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-travel": {
+   "status": "ok",
+   "count": 2,
+   "ms": 8683,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-crypto": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8758,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-french": {
+   "status": "ok",
+   "count": 10,
+   "ms": 8802,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-christianity": {
+   "status": "ok",
+   "count": 1,
+   "ms": 5133,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-dsp": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8825,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "wp-atlanticcouncil": {
+   "status": "ok",
+   "count": 15,
+   "ms": 2015,
+   "q": "climate",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-hermeneutics": {
+   "status": "ok",
+   "count": 1,
+   "ms": 8934,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-linguistics": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8980,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-bitcoin": {
+   "status": "ok",
+   "count": 20,
+   "ms": 8931,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-history": {
+   "status": "ok",
+   "count": 3,
+   "ms": 9055,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-spanish": {
+   "status": "ok",
+   "count": 7,
+   "ms": 9097,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-movies": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9232,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-bricks": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9069,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-scicomp": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9206,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-biology": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9361,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-poker": {
+   "status": "ok",
+   "count": 2,
+   "ms": 9359,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-chinese": {
+   "status": "ok",
+   "count": 9,
+   "ms": 9230,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-mathematica": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9372,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-outdoors": {
+   "status": "ok",
+   "count": 1,
+   "ms": 9484,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-sports": {
+   "status": "ok",
+   "count": 2,
+   "ms": 9556,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-psychology": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9514,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-martialarts": {
+   "status": "empty",
+   "count": 0,
+   "ms": 4579,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "portableapps": {
+   "status": "error",
+   "count": 0,
+   "ms": 15001,
+   "q": "vlc",
+   "error": "This operation was aborted",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-academia": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9621,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-cs": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9674,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-workplace": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9700,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-chemistry": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9770,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-russian": {
+   "status": "ok",
+   "count": 1,
+   "ms": 9879,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-chess": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9838,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-raspberrypi": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9831,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-islam": {
+   "status": "ok",
+   "count": 1,
+   "ms": 9941,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-salesforce": {
+   "status": "ok",
+   "count": 20,
+   "ms": 9986,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-genealogy": {
+   "status": "ok",
+   "count": 9,
+   "ms": 10043,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "wp-yxssp": {
+   "status": "dead",
+   "count": 0,
+   "ms": 2710,
+   "q": "vlc",
+   "error": "Unexpected token '<', \"<!doctype \"... is not valid JSON",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-robotics": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10064,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-expressionengine": {
+   "status": "ok",
+   "count": 10,
+   "ms": 4068,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-anime": {
+   "status": "ok",
+   "count": 1,
+   "ms": 10175,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "launchpad": {
+   "status": "ok",
+   "count": 20,
+   "ms": 4192,
+   "q": "editor",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-politics": {
+   "status": "ok",
+   "count": 8,
+   "ms": 10176,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-magento": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10232,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-sustainability": {
+   "status": "ok",
+   "count": 2,
+   "ms": 10306,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-reverseengineering": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10440,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-tridion": {
+   "status": "ok",
+   "count": 1,
+   "ms": 10395,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-ell": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10322,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-networkengineering": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10467,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-freelancing": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10502,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-mathoverflow-net": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10584,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-blender": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10573,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-ms-store": {
+   "status": "ok",
+   "count": 1,
+   "ms": 13144,
+   "q": "vlc",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-space": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10659,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-astronomy": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10724,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-sound": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10731,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-pets": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10867,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-tor": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10806,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-italian": {
+   "status": "ok",
+   "count": 1,
+   "ms": 3192,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-aviation": {
+   "status": "ok",
+   "count": 17,
+   "ms": 10987,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-ham": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10843,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-pt-stackoverflow": {
+   "status": "ok",
+   "count": 20,
+   "ms": 10999,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-alcohol": {
+   "status": "empty",
+   "count": 0,
+   "ms": 3021,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-ebooks": {
+   "status": "ok",
+   "count": 16,
+   "ms": 11018,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "bing": {
+   "status": "ok",
+   "count": 10,
+   "ms": 407,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-softwarerecs": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11117,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-expatriates": {
+   "status": "ok",
+   "count": 6,
+   "ms": 11191,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-matheducators": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11290,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-arduino": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11261,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-gitee": {
+   "status": "empty",
+   "count": 0,
+   "ms": 10403,
+   "q": "editor",
+   "checked": "2026-10-15T01:51"
+  },
+  "bing-news": {
+   "status": "ok",
+   "count": 12,
+   "ms": 1390,
+   "q": "AI",
+   "fieldCoverage": 100,
+   "checked": "2026-10-15T01:51"
+  },
+  "site-gitcode": {
+   "status": "empty",
+   "count": 0,
+   "ms": 8726,
+   "q": "editor",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-earthscience": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11339,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-sourceforge": {
+   "status": "empty",
+   "count": 0,
+   "ms": 8301,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-datascience": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11408,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-puzzling": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11501,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-chrome-ext": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7574,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-joomla": {
+   "status": "ok",
+   "count": 10,
+   "ms": 11388,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-dangdang": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7623,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-hinduism": {
+   "status": "ok",
+   "count": 1,
+   "ms": 11605,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-buddhism": {
+   "status": "ok",
+   "count": 1,
+   "ms": 2698,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-jd-book": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7552,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-craftcms": {
+   "status": "ok",
+   "count": 3,
+   "ms": 11518,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-worldbuilding": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11700,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-goodreads": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7626,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-alternativeto": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7878,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-edge-addons": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7604,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-shuge": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7669,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-hsm": {
+   "status": "ok",
+   "count": 3,
+   "ms": 11937,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-economics": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11808,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-ja-stackoverflow": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11701,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-ctext": {
+   "status": "ok",
+   "count": 2,
+   "ms": 6721,
+   "q": "论语",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "se-emacs": {
+   "status": "ok",
+   "count": 20,
+   "ms": 11740,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-coffee": {
+   "status": "empty",
+   "count": 0,
+   "ms": 2263,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-feedbooks": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7619,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-openstax": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7534,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-engineering": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12014,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-freecomputerbooks": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7562,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-lifehacks": {
+   "status": "ok",
+   "count": 1,
+   "ms": 2332,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-manybooks": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7520,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-woodworking": {
+   "status": "empty",
+   "count": 0,
+   "ms": 2199,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-qidian": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7580,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-bookstack": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7548,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-hathitrust": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7506,
+   "q": "论语",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-rus": {
+   "status": "ok",
+   "count": 2,
+   "ms": 12240,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-ru-stackoverflow": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12214,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-ximalaya-book": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7577,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-nlc": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7508,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "gl-framagit": {
+   "status": "ok",
+   "count": 20,
+   "ms": 3690,
+   "q": "vue",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-mythology": {
+   "status": "ok",
+   "count": 2,
+   "ms": 12371,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-vqq": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7681,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-civicrm": {
+   "status": "ok",
+   "count": 16,
+   "ms": 12198,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-ixigua": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7604,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-jjwxc": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7518,
+   "q": "python",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-vi": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12130,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-acfun": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7572,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-law": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12373,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-youku": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7576,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-portuguese": {
+   "status": "ok",
+   "count": 2,
+   "ms": 12490,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-opensource": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12393,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-ted": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7674,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-vimeo": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7620,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-douyin": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7600,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-computergraphics": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12582,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-iqiyi": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7609,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-es-stackoverflow": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12543,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-imdb": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7736,
+   "q": "三体",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-3dprinting": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12647,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-ethereum": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12705,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-icourse163": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7603,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-xuetangx": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7586,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-latin": {
+   "status": "ok",
+   "count": 4,
+   "ms": 12704,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-khan": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7592,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-mit-ocw": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7647,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-languagelearning": {
+   "status": "ok",
+   "count": 3,
+   "ms": 12751,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-netease-music": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7558,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-korean": {
+   "status": "ok",
+   "count": 1,
+   "ms": 1478,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-runoob": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7637,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-edx": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7603,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-crafts": {
+   "status": "empty",
+   "count": 0,
+   "ms": 1499,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-liaoxuefeng": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7604,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-monero": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12992,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-ximalaya": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7556,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-retrocomputing": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12850,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-ai": {
+   "status": "ok",
+   "count": 20,
+   "ms": 12995,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-xiaoyuzhou": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7552,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-bandcamp": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7600,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-qqmusic": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7583,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-soundcloud": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7515,
+   "q": "周杰伦",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-esperanto": {
+   "status": "ok",
+   "count": 2,
+   "ms": 13067,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-huaban": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7605,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-literature": {
+   "status": "ok",
+   "count": 4,
+   "ms": 13209,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-zcool": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7587,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-sitecore": {
+   "status": "ok",
+   "count": 1,
+   "ms": 13094,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-iconfont": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7616,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-dribbble": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7565,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-iot": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13138,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-behance": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7617,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-ukrainian": {
+   "status": "ok",
+   "count": 1,
+   "ms": 13196,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-sketchfab": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7624,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-devops": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13354,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-google-fonts": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7596,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-cnki": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7595,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-flaticon": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7536,
+   "q": "cat",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-bioinformatics": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13329,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-wanfang": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7616,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-chinaxiv": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7560,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-iota": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13471,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-baidu-xueshu": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7545,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-stellar": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13503,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-cseducators": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13352,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-cqvip": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7465,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-quantumcomputing": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13592,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-ssrn": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7581,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-researchgate": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7547,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-ieee": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7545,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-eosio": {
+   "status": "ok",
+   "count": 18,
+   "ms": 13633,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-tezos": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13625,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-acl": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7451,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-biorxiv": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7618,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-drones": {
+   "status": "ok",
+   "count": 7,
+   "ms": 13773,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "se-or": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13735,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-acm": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7468,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-nature": {
+   "status": "ok",
+   "count": 1,
+   "ms": 7764,
+   "q": "deep learning",
+   "fieldCoverage": 0,
+   "checked": "2026-10-15T01:51"
+  },
+  "site-hibor": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7602,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-cardano": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13881,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-fxbaogao": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7485,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-mattermodeling": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13782,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-vzkoo": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7558,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-sciencedirect": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7599,
+   "q": "deep learning",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-eastmoney-report": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7610,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-mckinsey": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7708,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-bcg": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7767,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-qianzhan": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7722,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "se-solana": {
+   "status": "ok",
+   "count": 20,
+   "ms": 13906,
+   "q": "python",
+   "checked": "2026-10-15T01:51",
+   "slow": true
+  },
+  "site-pwc": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7756,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-deloitte": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7723,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-kpmg": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7710,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-iresearch": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7560,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-imf": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7657,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-oecd": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7651,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-rand": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7639,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-who": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7613,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-statista": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7658,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-wef": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7622,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-36kr-research": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7707,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-caict": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7597,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-stats-gov": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7702,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-cbndata": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7771,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-gartner": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7668,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-questmobile": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7739,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-ndrc": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7827,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-miit": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7682,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-nber": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7651,
+   "q": "新能源",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-pbc": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7682,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-csrc": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7759,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-europa-eu": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7609,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-un": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7655,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "scholarpedia": {
+   "status": "dead",
+   "count": 0,
+   "ms": 10526,
+   "q": "deep learning",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-data-stats": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7648,
+   "q": "covid",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-kaggle": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7623,
+   "q": "covid",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-gov-uk": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7739,
+   "q": "人工智能",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-data-bj": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7545,
+   "q": "covid",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-data-sh": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7630,
+   "q": "covid",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-weibo": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7448,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-ourworldindata": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7658,
+   "q": "covid",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-xiaohongshu": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7557,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-tieba": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7515,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-zhihu": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7604,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-zhihu-zhuanlan": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7502,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-cnblogs": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7499,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-zhidao": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7434,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-segmentfault": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7478,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-jianshu": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7530,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "sogou-web": {
+   "status": "dead",
+   "count": 0,
+   "ms": 11527,
+   "q": "python",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-infoq": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7467,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-oschina": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7474,
+   "q": "json",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-sspai": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7455,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-repaik": {
+   "status": "dead",
+   "count": 0,
+   "ms": 10009,
+   "q": "vlc",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-36kr": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7467,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-ithome": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7402,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-geekpark": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7460,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-huxiu": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7484,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-caixin": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7370,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-thepaper": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7444,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-52pojie": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7356,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-nodeseek": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7348,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-jiemian": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7375,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-solidot": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7344,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-chiphell": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7247,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-hostloc": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7390,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "gdelt": {
+   "status": "error",
+   "count": 0,
+   "ms": 10865,
+   "q": "AI",
+   "error": "HTTP 429",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-smzdm": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7285,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-lanzou": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7287,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-xiazaiba": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7195,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-coolapk": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7309,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-onlinedown": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7326,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-pconline-dl": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7196,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-crsky": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7146,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-downkr": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7143,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-apkmirror": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7137,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-xiaomi-app": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7136,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-huawei-appgallery": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7160,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-apkpure": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7103,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-wandoujia": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7449,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-google-play": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7108,
+   "q": "微信",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-softpedia": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7093,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-majorgeeks": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7086,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-macupdate": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7041,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-filehippo": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7039,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-uptodown": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7115,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-saashub": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7000,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-techspot-dl": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7101,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-producthunt": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7123,
+   "q": "vlc",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-reddit": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7026,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-quora": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7058,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-x-twitter": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7028,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-lobsters": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7102,
+   "q": "AI",
+   "checked": "2026-10-15T01:51"
+  },
+  "site-medium": {
+   "status": "empty",
+   "count": 0,
+   "ms": 7043,
+   "q": "linux",
+   "checked": "2026-10-15T01:51"
+  },
+  "wp-waitsun": {
+   "status": "dead",
+   "count": 0,
+   "ms": 11528,
+   "q": "vlc",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "marginalia": {
+   "status": "error",
+   "count": 0,
+   "ms": 15004,
+   "q": "python",
+   "error": "This operation was aborted",
+   "checked": "2026-10-15T01:51"
+  },
+  "maven": {
+   "status": "error",
+   "count": 0,
+   "ms": 15000,
+   "q": "json",
+   "error": "This operation was aborted",
+   "checked": "2026-10-15T01:51"
+  },
+  "gutendex": {
+   "status": "ok",
+   "count": 1,
+   "ms": 3508,
+   "q": "python",
+   "fieldCoverage": 67,
+   "checked": "2026-10-15T01:51"
+  },
+  "jikan": {
+   "status": "dead",
+   "count": 0,
+   "ms": 10010,
+   "q": "三体",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  },
+  "ckan-data-gov-ro": {
+   "status": "dead",
+   "count": 0,
+   "ms": 10008,
+   "q": "covid",
+   "error": "fetch failed",
+   "checked": "2026-10-15T01:51"
+  }
+ },
+ "summary": {
+  "checked": 710,
+  "ok": 435,
+  "empty": 178,
+  "error": 14,
+  "dead": 83,
+  "at": "2026-10-15T01:51:34.948Z",
+  "network": "box (US datacenter)"
+ }
+}
