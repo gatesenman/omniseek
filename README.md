@@ -18,19 +18,17 @@
 
 ## 从源码运行
 
-源码在 `src/`（注意内部还有一层 `src/src` 引擎代码）。本仓库不包含安装包。
+源码在仓库根目录（引擎代码在 `src/`）。本仓库不包含安装包。
 
 ```bash
-cd src
 npm install
 npm start
 npm test
 ```
-
 ## 文档
 
-- [源码 README](src/README.md)
-- [更新日志](src/CHANGELOG.md)
+- [源码 README](README.original.md)
+- [更新日志](CHANGELOG.md)
 
 ---
 
@@ -56,17 +54,15 @@ npm test
 
 ## Getting started
 
-Source is under `src/` (engine code lives in a nested `src/src`). This repository does not include installers.
+Source is at the repository root (engine code lives in `src/`). This repository does not include installers.
 
 ```bash
-cd src
 npm install
 npm start
 npm test
 ```
-
 ## Documentation
 
-- [源码 README](src/README.md)
-- [更新日志](src/CHANGELOG.md)
+- [源码 README](README.original.md)
+- [更新日志](CHANGELOG.md)
 
